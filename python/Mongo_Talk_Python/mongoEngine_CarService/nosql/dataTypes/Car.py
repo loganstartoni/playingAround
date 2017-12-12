@@ -1,7 +1,7 @@
 import mongoengine
 import uuid
-import python.Mongo_Talk_Python.mongoEnginePlay.nosql.dataTypes.Engine as Engine
-from python.Mongo_Talk_Python.mongoEnginePlay.nosql.dataTypes import ServiceEntry
+import python.Mongo_Talk_Python.mongoEngine_CarService.nosql.dataTypes.Engine as Engine
+from python.Mongo_Talk_Python.mongoEngine_CarService.nosql.dataTypes import ServiceEntry
 
 
 class Car(mongoengine.Document):

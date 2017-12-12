@@ -1,7 +1,7 @@
-from python.Mongo_Talk_Python.mongoEnginePlay.nosql.dataTypes.ServiceEntry import ServiceEntry
-from python.Mongo_Talk_Python.mongoEnginePlay.nosql.mongo_setup import global_init
-from python.Mongo_Talk_Python.mongoEnginePlay.nosql.dataTypes.Car import Car
-from python.Mongo_Talk_Python.mongoEnginePlay.nosql.dataTypes.Engine import Engine
+from python.Mongo_Talk_Python.mongoEngine_CarService.nosql.dataTypes.ServiceEntry import ServiceEntry
+from python.Mongo_Talk_Python.mongoEngine_CarService.nosql.mongo_setup import global_init
+from python.Mongo_Talk_Python.mongoEngine_CarService.nosql.dataTypes.Car import Car
+from python.Mongo_Talk_Python.mongoEngine_CarService.nosql.dataTypes.Engine import Engine
 
 
 def main():
