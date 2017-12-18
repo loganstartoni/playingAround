@@ -27,7 +27,7 @@ timed(
 )
 
 timed(
-    'Find the 10,000th owner?',
+    'Find the 10,000th owner by name?',
     lambda: Owner.objects().order_by('name')[10000:10001][0]
 )
 
@@ -70,12 +70,14 @@ timed(
 
 timed(
     'Cars with expensive service and spark plugs?',
-    lambda: Car.objects(service_history__price__gt=16800, service_history__description='Spark plugs').count()
+    lambda: Car.objects(service_history__price__gt=16800,
+                        service_history__description='Spark plugs').count()
 )
 
 timed(
     'Load cars with expensive service and spark plugs?',
-    lambda: list(Car.objects(service_history__price__gt=16800, service_history__description='Spark plugs'))
+    lambda: list(Car.objects(service_history__price__gt=16800,
+                             service_history__description='Spark plugs'))
 )
 
 timed(
