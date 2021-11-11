@@ -160,3 +160,25 @@ generate_report_args('October', 'November', 'December', **parameters)
 
 # common uses of decorators
 # for websites checking for is a user logged in
+
+
+# extra example
+# make html
+def make_html(tag):
+    def decorate(function):
+        @wraps(function)
+        def wrapper(*args, **kwargs):
+            output = f"<{tag}>"
+            output = output + function(*args, **kwargs)
+            output = output + f"</{tag}>"
+            return output
+        return wrapper
+    return decorate
+
+
+@make_html("p")
+@make_html("strong")
+def get_text(text):
+    return text
+
+print(get_text("This is a bold statement."))

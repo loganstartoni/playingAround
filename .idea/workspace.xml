@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbb71386-0d11-4143-94f2-0bc427208817" name="Default" comment="Completion of List Comprehension of TalkPython.fm course">
-      <change afterPath="$PROJECT_DIR$/python/100DaysofPython_TalkPython/decorators.py" afterDir="false" />
+    <list default="true" id="dbb71386-0d11-4143-94f2-0bc427208817" name="Default" comment="complete decorators section of lessons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/100DaysofPython_TalkPython/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/100DaysofPython_TalkPython/decorators.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +260,7 @@
       <option name="presentableId" value="Default" />
       <updated>1512164378907</updated>
       <workItem from="1636634712371" duration="1550000" />
-      <workItem from="1636636282324" duration="8624000" />
+      <workItem from="1636636282324" duration="9463000" />
     </task>
     <task id="LOCAL-00001" summary="initial mongodb commit">
       <created>1512176339978</created>
@@ -311,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636644313298</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="complete decorators section of lessons">
+      <created>1636646602864</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1636646602864</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -389,10 +396,11 @@
     <MESSAGE value="add .gitignore" />
     <MESSAGE value="add files to .gitignore" />
     <MESSAGE value="Completion of List Comprehension of TalkPython.fm course" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completion of List Comprehension of TalkPython.fm course" />
+    <MESSAGE value="complete decorators section of lessons" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete decorators section of lessons" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/playingAround$decorators.coverage" NAME="decorators Coverage Results" MODIFIED="1636646389992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/100DaysofPython_TalkPython" />
+    <SUITE FILE_PATH="coverage/playingAround$decorators.coverage" NAME="decorators Coverage Results" MODIFIED="1636647395183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/100DaysofPython_TalkPython" />
     <SUITE FILE_PATH="coverage/playingAround$ListComprensions_and_Generators.coverage" NAME="ListComprensionsAndGenerators Coverage Results" MODIFIED="1636643760658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/100DaysofPython_TalkPython" />
   </component>
   <component name="editorHistoryManager">
