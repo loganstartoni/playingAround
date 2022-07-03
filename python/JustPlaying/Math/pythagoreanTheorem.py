@@ -25,7 +25,11 @@ def pythagorean_theorem(
 
 
 if __name__ == '__main__':
-    print(pythagorean_theorem(a=3, b=4))
-    print(pythagorean_theorem(a=3, c=5))
-    print(pythagorean_theorem(b=4, c=5))
+    # print(pythagorean_theorem(a=3, b=4))
+    # print(pythagorean_theorem(a=3, c=5))
+    # print(pythagorean_theorem(b=4, c=5))
+    print(pythagorean_theorem(b=10, a=15))
+    print(pythagorean_theorem(a=8, b=15))
+    print(pythagorean_theorem(a=5, b=12))
+    print(pythagorean_theorem(a=4, b=5))
 
